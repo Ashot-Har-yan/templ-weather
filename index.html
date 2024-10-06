@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div id="search">
+            <label id="label">
+            <input type="text"  id="cityInput" placeholder="Search country...">
+            <button id="getWeather"><i class="fa fa-search"></i></button>
+        </label>
+        </div>
+        <div id="city">
+            <span id="divName">City</span>
+            <i class="fas fa-map-marker-alt"></i>
+            <h2 id = "cityName"></h2>
+            
+        </div>
+        <div id="country">
+            <span id="divName">Country</span>
+            <h2 id="countryName"></h2>
+            
+        </div>
+        <div id="temperature">
+            <span id="divName">Temperature</span>
+            <i class="fas fa-thermometer-half"></i>
+            <h2 id="temp"></h2>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
